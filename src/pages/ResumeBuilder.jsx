@@ -5,34 +5,34 @@ import { motion } from 'framer-motion';
 
 const ResumeBuilder = () => {
     const [data, setData] = useState({
-        name: 'John Doe',
-        email: 'john.doe@example.com',
-        phone: '+91 98765 43210',
-        location: 'Bangalore, India',
-        linkedin: 'linkedin.com/in/johndoe',
-        github: 'github.com/johndoe',
+        name: 'Payal Roy',
+        email: 'payalroy2004@example.com',
+        phone: '+91 9330122470',
+        location: 'Kolkata, West Bengal',
+        linkedin: 'linkedin.com/in/payalroy',
+        github: 'github.com/payalroy',
         summary: 'Aspiring software engineer with a strong foundation in modern web technologies and a passion for building scalable, user-centric applications. Eager to solve complex problems and contribute to a dynamic engineering team.',
         education: [
-            { id: 1, degree: 'B.Tech / BE Computer Science', school: 'XYZ Engineering College', cgpa: '8.5 / 10', year: '2020 - 2024' },
-            { id: 2, degree: 'Class 12 (HSC)', school: 'ABC Public School', cgpa: '92%', year: '2019 - 2020' },
-            { id: 3, degree: 'Class 10 (SSC)', school: 'ABC Public School', cgpa: '95%', year: '2017 - 2018' }
+            { id: 1, degree: 'B.Tech in Electronics and Communication Engineering', college: 'JIS College of Engineering', cgpa: '8.62 / 10', year: '2022 - 2026' },
+            { id: 2, degree: 'Class 12 (HSC)', school: 'Kendriya Vidyalaya No. 1, Barrackpore', Percentage: '75%', year: '2021 - 2022' },
+            { id: 3, degree: 'Class 10 (SSC)', school: 'Kendriya Vidyalaya No. 1, Barrackpore', Percentage: '86%', year: '2019 - 2020' }
         ],
         technicalSkills: {
-            languages: 'C, Python, Java',
+            languages: 'C, Python',
             web: 'HTML, CSS, JavaScript, React',
-            databases: 'MySQL, MongoDB',
-            tools: 'Git, VS Code, Postman'
+            databases: 'MySQL',
+            tools: 'Git, VS Code'
         },
         experience: [
             { id: 1, company: 'Tech Solutions Inc.', role: 'Software Engineering Intern', duration: 'May 2023 - Aug 2023', workDone: 'Developed and maintained user-facing features using React.js. Collaborated with the backend team to integrate APIs, reducing load times by 20%.', tools: 'React, Node.js, Git' }
         ],
         projects: [
-            { id: 1, title: 'Career Portal Application', duration: 'Jan 2024 - Present', description: 'Built a comprehensive career portal with mock tests, resume builder, and job listings.', tools: 'React, Vite, Express, MongoDB' }
+            { id: 1, title: 'Career Portal Application', duration: 'Jan 2026 - Present', description: 'Built a comprehensive career portal with mock tests, resume builder, and job listings.', tools: 'React, Vite, Express, MongoDB' }
         ],
         certifications: 'AWS Certified Cloud Practitioner, Meta Front-End Developer',
-        achievements: 'Winner of National Level Hackathon 2023, Solved 500+ problems on LeetCode',
+        achievements: 'Winner of National Level Hackathon 2023',
         softSkills: 'Problem Solving, Team Communication, Adaptability, Time Management',
-        hobbies: 'Competitive Programming, Playing Chess, Reading Tech Blogs'
+        hobbies: 'Drawing, Reading, Travelling'
     });
 
     const componentRef = useRef();
