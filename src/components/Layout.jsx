@@ -6,6 +6,7 @@ import {
   Bell, GraduationCap, User, Settings, LogOut, Sun, Moon
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import userIcon from '../assets/user.png';
 
 const Layout = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false);
@@ -93,9 +94,9 @@ const Layout = () => {
                 style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: 0 }}
               >
                 <img
-                  src="https://ui-avatars.com/api/?name=User&background=8b5cf6&color=fff"
+                  src={userIcon}
                   alt="Avatar"
-                  style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid var(--primary)' }}
+                  style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid var(--primary)', backgroundColor: 'grey' }}
                 />
               </button>
 
